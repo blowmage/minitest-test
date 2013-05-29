@@ -9,7 +9,7 @@ Hoe.spec "minitest-test" do
   developer "Mike Moore", "mike@blowmage.com"
 
   self.summary     = "Minitest::Test for MiniTest 4"
-  self.description = "Enables Minitest 5 test syntax in MiniTest 4"
+  self.description = "Minitest 5 test API in MiniTest 4"
   self.urls        = ["http://blowmage.com/minitest-test"]
 
   self.history_file = "History.rdoc"
