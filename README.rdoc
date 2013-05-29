@@ -4,7 +4,7 @@ Minitest::Test for MiniTest 4
 
 == DESCRIPTION:
 
-Enables Minitest 5 test syntax in MiniTest 4.
+Minitest 5 test API in MiniTest 4.
 
 Do you love the syntax changes made in Minitest 5 but are forced to stay
 on MiniTest 4? No problem. This small library will enable much of the
