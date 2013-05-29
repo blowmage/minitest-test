@@ -6,9 +6,9 @@ Minitest::Test for MiniTest 4
 
 Minitest 5 test API in MiniTest 4.
 
-Do you love the syntax changes made in Minitest 5 but are forced to stay
+Do you love the API changes made in Minitest 5 but are forced to stay
 on MiniTest 4? No problem. This small library will enable much of the
-Minitest 5 test syntax for you. Simply <tt>require "minitest/test"</tt>
+Minitest 5 test API for you. Simply <tt>require "minitest/test"</tt>
 in your helper or your test file and you are good to go.
 
     require "minitest/test"
