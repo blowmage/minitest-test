@@ -1,0 +1,71 @@
+= minitest-test
+
+Minitest::Test for MiniTest 4
+
+== DESCRIPTION:
+
+Enables Minitest 5 test syntax in MiniTest 4.
+
+Do you love the syntax changes made in Minitest 5 but are forced to stay
+on MiniTest 4? No problem. This small library will enable much of the
+Minitest 5 test syntax for you. Simply <tt>require "minitest/test"</tt>
+in your helper or your test file and you are good to go.
+
+    require "minitest/test"
+    require "minitest/autorun"
+
+    class TestFoo < Minitest::Test
+      def test_foo
+        assert_equal "foo", Foo.new.foo
+      end
+    end
+
+Best of all, this is forwards compatible with Minitest 5.
+
+== INSTALL:
+
+Install with rubygems.
+
+    gem install minitest-test
+
+== DEVELOPERS:
+
+Fork the project from the
+{GitHub repository}[https://github.com/blowmage/minitest-test].
+
+After checking out the source, run:
+
+    $ gem install hoe
+    $ rake newb
+
+This task will install any missing dependencies, run the tests, and
+generate the RDoc. Now you are ready to create and submit a patch.
+
+Create an issue or pull request on the
+{blowmage/minitest-test}[https://github.com/blowmage/minitest-test] repo
+that links to a branch on your repo or a gist of your patch.
+
+== LICENSE:
+
+(The MIT License)
+
+Copyright (c) 2013 Mike Moore
+
+Permission is hereby granted, free of charge, to any person obtaining
+a copy of this software and associated documentation files (the
+'Software'), to deal in the Software without restriction, including
+without limitation the rights to use, copy, modify, merge, publish,
+distribute, sublicense, and/or sell copies of the Software, and to
+permit persons to whom the Software is furnished to do so, subject to
+the following conditions:
+
+The above copyright notice and this permission notice shall be
+included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED 'AS IS', WITHOUT WARRANTY OF ANY KIND,
+EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
+IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY
+CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT,
+TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE
+SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
