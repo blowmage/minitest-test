@@ -4,6 +4,7 @@ History.rdoc
 Manifest.txt
 README.rdoc
 Rakefile
+lib/minitest.rb
 lib/minitest/test.rb
 minitest-test.gemspec
 test/minitest/test_test.rb
